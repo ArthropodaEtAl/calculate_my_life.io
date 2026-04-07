@@ -25,6 +25,38 @@
         /* padding: 40px 20px; */
     }
 
+    .creative {
+        font-family: "Century Gothic", "Courier New", "Times New Roman", serif;
+        line-height: 1.6;
+        background: #5e0543;
+        height: 100vh;
+        color: #ffffff;
+        /* padding: 40px 20px; */
+    }
+
+
+    .poetry {
+        font-family: "Century Gothic", "Courier New", "Times New Roman", serif;
+        line-height: 1.6;
+        background: #5e0543;
+        height: 100vh;
+        color: #ffffff;
+        /* padding: 40px 20px; */
+    }
+
+    .poems {
+        font-family: "Century Gothic", "Courier New", "Times New Roman", serif;
+        line-height: 1.6;
+        background: #000d55;
+        height: 100vh;
+        color: #ffffff;
+        /* padding: 40px 20px; */
+    }
+
+    .poemparagraph {
+        text-align: left;
+
+    }
     .wrap-layer {
         position: relative;
     }
@@ -40,8 +72,22 @@
         /* non-critical styles left out */
     }
 
+    .poem-layer {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 35px;
+        /* non-critical styles left out */
+    }
+
     .homepagesvg {
-        height: 100vh;
+        height: 150vh;
         width: 100%;
         position: relative;
         z-index: -1;
